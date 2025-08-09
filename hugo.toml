@@ -36,7 +36,7 @@ minifyOutput = true
   defaultTheme = "auto"
   disableThemeToggle = false
 
-  ShowShareButtons = true
+  ShowShareButtons = false 
   ShowReadingTime = true
   displayFullLangName =  true
   ShowPostNavLinks = true
