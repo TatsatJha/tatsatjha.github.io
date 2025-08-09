@@ -52,13 +52,14 @@ minifyOutput = true
   [params.profileMode]
     enabled = true
     title = "Tatsat Jha"
-    subtitle = "Chasing Excellence... neovim by the way"
+    subtitle = "Honors Computer Science @ ASU. Chasing Excellence in Software Engineering"
+    subsubtitle = "... neovim by the way"
     imageUrl = ""
     imageWidth = 150
     imageHeight = 150
     imageTitle = "Portrait"
     [[params.profileMode.buttons]]
-      name = "Project Demos"
+      name = "Projects"
       url = "projects"
     [[params.profileMode.buttons]]
       name = "Contact"
