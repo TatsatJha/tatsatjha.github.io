@@ -1,4 +1,4 @@
-baseURL =  'https://localhost:1313/'
+baseURL =  'https://tatsatjha.com/'
 languageCode = 'en-us'
 title = 'Tatsat Jha'
 theme = "papermod"
