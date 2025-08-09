@@ -3,3 +3,88 @@ languageCode = 'en-us'
 title = 'Tatsat Jha'
 theme = "papermod"
 
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+minifyOutput = true
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 30
+
+[params]
+
+  env = "production"
+  title = "My Portfolio"
+  description = "A series of Development logs by Tatsat Jha"
+  keywords = ["portfolio", "projects"]
+  author = "Tatsat Jha"
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  ShowShareButtons = true
+  ShowReadingTime = true
+  displayFullLangName =  true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs =  true
+  ShowCodeCopyButtons =  true
+  ShowRssButtonInSectionTermList =  true
+  ShowAllPagesInArchive =  true
+  ShowPageNums =  true
+  ShowToc =  true
+
+  enableRSS = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Tatsat Jha"
+    subtitle = "Seeking Excellence"
+    imageUrl = ""
+    imageWidth = 150
+    imageHeight = 150
+    imageTitle = "Portrait"
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "projects"
+    [[params.profileMode.buttons]]
+      name = "Contact"
+      url = "contact"
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "about"
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "posts/"
+
+
+
+
+  [params.homeInfoParams]
+    Title = "Welcome!"
+    Content = "I'm a creative professional showcasing my best work."
+
+  # Optional: search configuration (if needed)
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    threshold = 0.4
+    keys = ["title", "permalink", "summary", "content"]
+    limit = 10
+
+[markup]
+  [markup.highlight]
+    noClasses = false
