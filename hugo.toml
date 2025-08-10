@@ -24,6 +24,10 @@ minifyOutput = true
     name = "Contact"
     url = "/contact/"
     weight = 30
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 40
 
 [params]
 
@@ -58,6 +62,10 @@ minifyOutput = true
     imageWidth = 150
     imageHeight = 150
     imageTitle = "Portrait"
+    
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "posts/"
     [[params.profileMode.buttons]]
       name = "Projects"
       url = "projects"
@@ -67,10 +75,7 @@ minifyOutput = true
     [[params.profileMode.buttons]]
       name = "About"
       url = "about"
-    [[params.profileMode.buttons]]
-      name = "Posts"
-      url = "posts/"
-
+    
 
 
 
