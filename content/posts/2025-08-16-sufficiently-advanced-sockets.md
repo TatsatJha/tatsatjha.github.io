@@ -1,5 +1,5 @@
 +++
-title = "Summer 2025 Review"
+title = "Sufficiently Advanced Sockets"
 date = "2025-08-16"
 +++
 
